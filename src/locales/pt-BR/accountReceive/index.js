@@ -1,0 +1,31 @@
+import EditParcel from './modals/editParcel'
+import NewReceipt from './newReceipt'
+
+export default {
+  'accountReceive.index.receipt': 'Recebimentos',
+  'accountReceive.index.unit': 'Unidade',
+  'accountReceive.index.period': 'Período',
+  'accountReceive.index.received': 'Recebido',
+  'accountReceive.index.expired': 'Vencido',
+  'accountReceive.index.cancelled': 'Cancelado',
+  'accountReceive.index.due': 'A vencer',
+  'accountReceive.index.today': 'Hoje',
+  'accountReceive.index.future': 'Futuro',
+  'accountReceive.index.total': 'Total',
+  'accountReceive.index.new': 'Novo recebimento',
+  'accountReceive.index.title': 'Título',
+  'accountReceive.index.emission': 'Emissão',
+  'accountReceive.index.person': 'Pessoa',
+  'accountReceive.index.value': 'Valor',
+  'accountReceive.index.status': 'Status',
+  'accountReceive.index.parcel': 'Parcela',
+  'accountReceive.index.maturity': 'Vencimento',
+  'accountReceive.index.other': 'Outros',
+  'accountReceive.index.titles': 'Títulos',
+  'accountReceive.index.parcels': 'Parcelas',
+  'accountReceive.index.editParcel': 'Editar parcela',
+  'accountReceive.index.renegotiate': 'Renegociar',
+  'accountReceive.index.verb': 'Receber',
+  ...NewReceipt,
+  ...EditParcel,
+}

@@ -1,0 +1,15 @@
+export default {
+  'contract.modals.preventiveMaintenanceModal.period': 'Periodicidade',
+  'contract.modals.preventiveMaintenanceModal.weekDay': 'Dia da semana',
+  'contract.modals.preventiveMaintenanceModal.monthDay': 'Dia do mês',
+  'contract.modals.preventiveMaintenanceModal.month': 'Mês',
+  'contract.modals.preventiveMaintenanceModal.technical': 'Técnico',
+  'contract.modals.preventiveMaintenanceModal.daily': 'Diário',
+  'contract.modals.preventiveMaintenanceModal.weekly': 'Semanal',
+  'contract.modals.preventiveMaintenanceModal.biweekly': 'Quinzenal',
+  'contract.modals.preventiveMaintenanceModal.monthly': 'Mensal',
+  'contract.modals.preventiveMaintenanceModal.bimonthly': 'Bimestral',
+  'contract.modals.preventiveMaintenanceModal.quarterly': 'Trimestral',
+  'contract.modals.preventiveMaintenanceModal.biannual': 'Semestral',
+  'contract.modals.preventiveMaintenanceModal.yearly': 'Anual',
+}

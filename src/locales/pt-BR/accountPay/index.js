@@ -1,0 +1,31 @@
+import EditParcel from './modals/editParcel'
+import NewPayment from './newPayment'
+
+export default {
+  'accountPay.index.payment': 'Pagamentos',
+  'accountPay.index.unit': 'Unidade',
+  'accountPay.index.period': 'Período',
+  'accountPay.index.paid': 'Pago',
+  'accountPay.index.expired': 'Vencido',
+  'accountPay.index.cancelled': 'Cancelado',
+  'accountPay.index.due': 'A vencer',
+  'accountPay.index.today': 'Hoje',
+  'accountPay.index.future': 'Futuro',
+  'accountPay.index.total': 'Total',
+  'accountPay.index.new': 'Novo pagamento',
+  'accountPay.index.title': 'Título',
+  'accountPay.index.emission': 'Emissão',
+  'accountPay.index.person': 'Pessoa',
+  'accountPay.index.value': 'Valor',
+  'accountPay.index.status': 'Status',
+  'accountPay.index.parcel': 'Parcela',
+  'accountPay.index.maturity': 'Vencimento',
+  'accountPay.index.other': 'Outros',
+  'accountPay.index.titles': 'Títulos',
+  'accountPay.index.parcels': 'Parcelas',
+  'accountPay.index.editParcel': 'Editar parcela',
+  'accountPay.index.renegotiate': 'Renegociar',
+  'accountPay.index.verb': 'Pagar',
+  ...NewPayment,
+  ...EditParcel,
+}

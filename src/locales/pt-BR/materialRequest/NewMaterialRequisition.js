@@ -1,0 +1,41 @@
+export default {
+  'materialRequest.NewMaterialRequisition.blockRequisitionTooltip':
+    'Uma requisição bloqueada não permite alteração. Use esta opção para impedir que outros usuários alterem a requisição.',
+  'materialRequest.NewMaterialRequisition.code': 'Código',
+  'materialRequest.NewMaterialRequisition.description': 'Descrição',
+  'materialRequest.NewMaterialRequisition.quantity': 'Quantidade',
+  'materialRequest.NewMaterialRequisition.separatedItem': 'Item separado',
+  'materialRequest.NewMaterialRequisition.documentNotInProgress': 'Documento finalizado!',
+  'materialRequest.NewMaterialRequisition.notSeparatedItem':
+    'Item não separado',
+  'materialRequest.NewMaterialRequisition.appliedItem': 'Item aplicado',
+  'materialRequest.NewMaterialRequisition.notAppliedItem': 'Item não aplicado',
+  'materialRequest.NewMaterialRequisition.stock': 'Estoque',
+   'materialRequest.NewMaterialRequisition.export': 'Exportar',
+  'materialRequest.NewMaterialRequisition.status': 'Status',
+  'materialRequest.NewMaterialRequisition.pending': 'Pendente',
+  'materialRequest.NewMaterialRequisition.originDocument':
+    'Documento de origem',
+  'materialRequest.NewMaterialRequisition.addItem': 'Adicionar item',
+  'materialRequest.NewMaterialRequisition.editItem': 'Editar item',
+  'materialRequest.NewMaterialRequisition.queryItem': 'Consultar item',
+  'materialRequest.NewMaterialRequisition.save': 'Salvar',
+  'materialRequest.NewMaterialRequisition.saveAndReturn': 'Salvar e voltar',
+  'materialRequest.NewMaterialRequisition.saveAndAddAnother':
+    'Salvar e adicionar outro',
+  'materialRequest.NewMaterialRequisition.cancel': 'Cancelar',
+  'materialRequest.NewMaterialRequisition.return': 'Voltar',
+  'materialRequest.NewMaterialRequisition.requester': 'Solicitante',
+  'materialRequest.NewMaterialRequisition.blocked': 'Bloqueada',
+  'materialRequest.NewMaterialRequisition.period': 'Período',
+  'materialRequest.NewMaterialRequisition.reason': 'Motivo',
+  'materialRequest.NewMaterialRequisition.blockRequisition':
+    'Bloquear requisição',
+  'materialRequest.NewMaterialRequisition.observation': 'Observação',
+  'materialRequest.NewMaterialRequisition.separate': 'Separar',
+  'materialRequest.NewMaterialRequisition.refreshRequest': 'Atualizar tela',
+  'materialRequest.NewMaterialRequisition.refreshWithoutSave': 'Se a tela for atualizada, todas os dados que foram inseridos ou alterados serão perdidos! Deseja prosseguir?',
+  'materialRequest.NewMaterialRequisition.attention': 'Atenção!',
+  'materialRequest.NewMaterialRequisition.apply': 'Aplicar',
+  'materialRequest.NewMaterialRequisition.delete': 'Excluir',
+}

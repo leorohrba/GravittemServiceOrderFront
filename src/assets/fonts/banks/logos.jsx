@@ -1,0 +1,25 @@
+export const registeredLogoCodes = Object.freeze([
+  '000',
+  '00000',
+  '748',
+  '033',
+  '422',
+  '212',
+  '260',
+  '479',
+  '077',
+  '269',
+  '745',
+  '104',
+  '237',
+  '041',
+  '21',
+  '021',
+  '004',
+  '001',
+  '003',
+  '341',
+  '756',
+])
+
+export const hasLogo = code => !!registeredLogoCodes.includes(code)

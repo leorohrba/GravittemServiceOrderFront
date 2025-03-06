@@ -1,0 +1,14 @@
+rescript = 1
+rule cp
+  command = cp $i $out
+rule touch
+ command = touch $out
+o NewServiceResUtils.cmi : cp ../bs/src/pages/Services/NewService/Tabs/NewServiceResUtils.cmi
+o NewServiceResUtils.cmj : cp ../bs/src/pages/Services/NewService/Tabs/NewServiceResUtils.cmj
+o NewServiceResUtils.cmt : cp ../bs/src/pages/Services/NewService/Tabs/NewServiceResUtils.cmt
+o NewServiceResUtils.res : cp ../../src/pages/Services/NewService/Tabs/NewServiceResUtils.res
+o Generics.cmi : cp ../bs/src/utils/rescript/Generics.cmi
+o Generics.cmj : cp ../bs/src/utils/rescript/Generics.cmj
+o Generics.cmt : cp ../bs/src/utils/rescript/Generics.cmt
+o Generics.res : cp ../../src/utils/rescript/Generics.res
+build install.stamp : touch NewServiceResUtils.cmi NewServiceResUtils.cmj Generics.cmi Generics.cmj 

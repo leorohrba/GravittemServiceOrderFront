@@ -1,0 +1,168 @@
+@font-face {
+  font-family: 'Fonte-Bancos-Brasileiros';
+  src: url('../banks/Fonte-Bancos-Brasileiros.eot?zfl0wc');
+  src: url('../banks/Fonte-Bancos-Brasileiros.eot?zfl0wc#iefix') format('embedded-opentype'),
+  url('../banks/Fonte-Bancos-Brasileiros.ttf?zfl0wc') format('truetype'),
+  url('../banks/Fonte-Bancos-Brasileiros.woff?zfl0wc') format('woff'),
+  url('../banks/Fonte-Bancos-Brasileiros.svg?zfl0wc#Fonte-Bancos-Brasileiros') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='ibb-'],
+[class*=' ibb-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Fonte-Bancos-Brasileiros' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ibb-none:before {  
+  background-color: hsl(0deg 0% 83%);
+  color: hsl(0deg 0% 83%);
+  border-radius: 50%;
+  width: 46px;
+  content: '\e900';
+}
+
+.ibb-748:before {
+  content: '\e900';
+  color: #006b21;
+}
+
+.ibb-00000 {
+  content: url('./mercado-pago.png');
+  width: 46px;
+}
+
+.ibb-000 {
+  content: url('./no-bank-logo.png');
+  width: 50px;
+}
+
+.ibb-sicoob:before {
+  content: '\e901';
+  color: #003641;
+}
+
+.ibb-033:before {
+  content: '\e902';
+  color: #ea1d25;
+}
+
+.ibb-422:before {
+  content: '\e903';
+  color: 'black';
+}
+
+.ibb-212:before {
+  content: '\e904';
+  color: 'black';
+}
+
+.ibb-260:before {
+  color: #641b7c;
+  content: '\e905';
+}
+
+.ibb-479:before {
+  content: '\e906';
+  color: #1a5493;
+}
+
+.ibb-077:before {
+  content: '\e907';
+  color: #ff570d;
+}
+
+.ibb-269:before {
+  content: '\e908';
+  color: #e71d1c;
+}
+
+.ibb-745:before {
+  content: '\e909';
+  color: #003b70;
+}
+
+.ibb-104:before {
+  content: '\e90a';
+  color: #016db8;
+}
+
+.ibb-bradesco-alt:before {
+  content: '\e90b';
+  color: #e41836;
+}
+
+.ibb-237:before {
+  content: '\e90c';
+  color: #e41836;
+}
+
+.ibb-041:before {
+  content: '\e90d';
+  color: #016bbf;
+}
+
+.ibb-bank-boston:before {
+  content: '\e90e';
+  color: #0094d6;
+}
+
+.ibb-21:before,
+.ibb-021:before {
+  content: '\e90f';
+  color: #1b6fad;
+}
+
+.ibb-banco-real:before {
+  content: '\e910';
+  color: #00958f;
+}
+
+.ibb-004:before {
+  content: '\e911';
+  color: #a80a35;
+}
+
+.ibb-banco-brasilia:before {
+  content: '\e912';
+  color: #12377e;
+}
+
+.ibb-001:before {
+  content: '\e913';
+  color: #003882;
+  background-color: yellow;
+}
+
+.ibb-003:before {
+  content: '\e914';
+  color: #006802;
+}
+
+.ibb-341:before {
+  content: '\e906';
+  color: #003882;
+  background-color:yellow;
+}
+
+.ibb-756:before {
+  content: '\e901';
+  color: #003641;
+}
+
+.ibb-default {
+  content: url('./outros_bancos.png');
+  width: 50px;
+  border-radius: 50%;
+}

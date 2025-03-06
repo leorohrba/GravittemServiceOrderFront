@@ -1,0 +1,18 @@
+export default {
+  'bankReconciliation.detail.currentAccount': 'Conta Corrente',
+  'bankReconciliation.detail.agency': 'Agência',
+  'bankReconciliation.detail.currentAccountBalance': 'Saldo atual da conta',
+  'bankReconciliation.detail.limit': 'Limite',
+  'bankReconciliation.detail.balance': 'Saldo',
+  'bankReconciliation.detail.pendingConciliations': ' conciliações pendentes',
+  'bankReconciliation.detail.editInformation': 'Editar informações',
+  'bankReconciliation.detail.conciliationsHistory': 'Histórico de conciliações',
+  'bankReconciliation.detail.conciliate': 'Conciliar',
+  'bankReconciliation.detail.cancelConciliate': 'Cancelar conciliação',
+  'bankReconciliation.detail.ignore': 'Ignorar',
+  'bankReconciliation.detail.accountPlan': 'Plano de contas',
+  'bankReconciliation.detail.unidentified': 'Não identificado',
+  'bankReconciliation.detail.register': 'Cadastrar',
+  'bankReconciliation.detail.transfer': 'Tranferência',
+  'bankReconciliation.detail.localize': 'Localizar',
+}

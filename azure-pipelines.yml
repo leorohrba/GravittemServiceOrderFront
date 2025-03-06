@@ -1,0 +1,52 @@
+# Node.js with React
+# Build a Node.js project that uses React.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+  branches:
+      include:
+      - dev
+      - qa
+      - sat
+      - diversos
+      - master
+
+jobs:
+- job: Job_1
+  displayName: Agent job 1
+  pool:
+    name: build-servers
+  steps:
+  - checkout: self
+  - task: NodeTool@0
+    displayName: Use Node 14.x
+    inputs:
+      versionSpec: 14.x
+      checkLatest: true
+  
+  - task: CmdLine@2
+    displayName: npm install -g pnpm
+  - task: CmdLine@2
+    inputs:
+      script: 'pnpm store prune'
+
+  - task: CmdLine@2
+    displayName: pnpm install
+    inputs:
+      script: pnpm install
+      workingDirectory: $(Build.Repository.LocalPath)
+  - task: CmdLine@2
+    displayName: pnpm build
+    inputs:
+      script: pnpm build
+      workingDirectory: $(Build.Repository.LocalPath)
+  - task: CmdLine@2
+    inputs:
+      script: 'compress-archive -path ''$(Build.Repository.LocalPath)\dist\*'' -destinationpath ''$(Build.ArtifactStagingDirectory)/$(Build.DefinitionName)_$(Build.BuildNumber).zip'' -compressionlevel optimal'
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+      ArtifactName: 'drop_$(Build.BuildNumber)'
+      publishLocation: 'Container'
